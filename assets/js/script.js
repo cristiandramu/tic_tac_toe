@@ -2,7 +2,7 @@ let playerText = document.getElementById('playerText')
 let restartBtn = document.getElementById('restartBtn')
 let boxes = Array.from(document.getElementsByClassName('box'))
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winner-blocks')
-
+let drawIndicator = getComputedStyle(document.body).getPropertyValue('--drawIndicator')
 /*
     ============================================
       Define event Listener 
@@ -30,7 +30,7 @@ const startGame = () =>{
         e.target.innerText = currentPlayer
 
         if(playerWon() !==false){
-            playerText.innerHTML = '${currentPlayer} has won!'
+            playerText.innerHTML = `${currentPlayer}  has won!` 
             let winning_blocks = playerWon()
             count_plays = 10
 
@@ -93,4 +93,4 @@ const startGame = () =>{
         currentPlayer = X_TEXT
     }
 
-startGame()
+startGame ()

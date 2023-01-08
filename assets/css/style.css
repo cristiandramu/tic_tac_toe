@@ -8,12 +8,14 @@
 
 :root{
     --winner-blocks: #2d414b ;
+    --drawIndicator: #cf2701 ;
  }
 body {
 
     color: #F2c14e;
     font-family: 'Finger Paint', cursive;
     text-align: center;
+    background-color: #37505C;
 }
 
 h1{
