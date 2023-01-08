@@ -21,8 +21,7 @@ h1{
     text-transform: uppercase;
 }
 
-.container
-{
+.container{
     padding: 100px;
     height: 100%;
     display: flex;
