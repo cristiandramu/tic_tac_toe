@@ -24,6 +24,7 @@ const startGame = () =>{
     */
     function boxClicked(e){
     const id = e.target.id
+    
 
     if(!spaces[id] && count_plays < 9){
         spaces[id]= currentPlayer
@@ -33,6 +34,7 @@ const startGame = () =>{
             playerText.innerHTML = `${currentPlayer}  has won!` 
             let winning_blocks = playerWon()
             count_plays = 10
+            
 
             winning_blocks.map( box => boxes[box].style.backgroundColor=winnerIndicator)
             return
