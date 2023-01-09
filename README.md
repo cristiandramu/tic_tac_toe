@@ -26,7 +26,7 @@ b. If no one can create a straight line with their own mark and all the position
   
 <p>1.The game starts with loading a 3 x 3 grid</p>
 
- ![web](./assets/images/web.jpg)
+ ![web](./assets/images/new_game.jpg)
  
  <p>2.Player 1 has 1st move and he/she can choose any of them empty boxes, after switch it is Player 2's turn</p>
  
@@ -65,8 +65,8 @@ b. If no one can create a straight line with their own mark and all the position
 <p>The site was deployed to GitHub pages. The steps to deplay are as fallows:</p>
         
         - In the GitHub repository, navigate to the settings tab
-        - From the source section drop-down menu, select Master Branch
-        - Once the master branch has been selected, the page will be automatically refreshed 
+        - From the branch section drop-down menu, select Main Branch
+        - Once the main branch has been selected, the page will be automatically refreshed 
         - A detailed ribbon display to indicate the successful deployment.
 
 <p>The live link can be found here - </p>
