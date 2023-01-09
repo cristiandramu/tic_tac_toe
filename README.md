@@ -56,8 +56,10 @@ b. If no one can create a straight line with their own mark and all the position
 
 1. HTML
     -No errors were returned when passing through the official W3C validator https://validator.w3.org/
+     ![web](./assets/images/html_check.jpg)
 2. CSS
     -No errors were found when passing through the official (Jigsaw) validator https://jigsaw.w3.org/css-validator/
+     ![web](./assets/images/css_check.jpg)
 <br>
 
 ### Deployment:
