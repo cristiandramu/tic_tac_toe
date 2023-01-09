@@ -24,10 +24,27 @@ b. If no one can create a straight line with their own mark and all the position
 
 ### Implementation Plan:
   
-<p>The game starts with Loading a 3 x 3 grid</p>
+<p>1.The game starts with loading a 3 x 3 grid</p>
 
  ![web](./assets/images/web.jpg)
+ 
+ <p>2.Player 1 has 1st move and he/she can choose any of them empty boxes, after switch it is Player 2's turn</p>
+ 
+ ![web](./assets/images/game_start.jpg)
+ 
+ <p>3.Both player has to get 3 in a row to win after which they will be informed which player won. 
+ <p>While taking turn each player should also try and block the other from completely 3 in a row.
+ 
+ ![web](./assets/images/player_won.jpg)
+ 
+ <p>4.If all boxes are filled and nobody got 3 in a row the game will end in a draw and the board will change to red.
+
+ ![web](./assets/images/game_draw.jpeg)
   
+<p>5.To start a new game and clear the bord the Players can click the New game button.
+ 
+ ![web](./assets/images/new_game.jpg) 
+ 
 ### Testing:
 
 
