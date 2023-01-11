@@ -73,7 +73,9 @@ b. If no one can create a straight line with their own mark and all the position
 
 
 ### ++Validator Testing++:
+The site has been tested to performance using lighthouse report with the fallowing results.
 
+![web](./assets/images/performance.jpg)
 
 1. HTML
     -No errors were returned when passing through the official W3C validator https://validator.w3.org/
